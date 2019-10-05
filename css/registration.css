@@ -100,11 +100,36 @@ a {
     border: 2px solid #1665D8;
 }
 
-.registration-form label {
-    display: block;
-    margin-bottom: 24px;
+.consent-custom-checkbox {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
     color: #9EA0A5;
     cursor: pointer;
+}
+
+.consent-custom-checkbox:before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #425A70;
+    border-radius: 2px;
+    position: relative;
+    top: 1px;
+    margin-right: 10px;
+    float: left;
+    line-height: 14px;
+}
+
+#registration-checkbox[type="checkbox"] {
+    display: none;
+}
+
+#registration-checkbox[type="checkbox"]:checked + .consent-custom-checkbox:before {
+    content: '';
+    background: #425A70;
+    text-align: center;
 }
 
 .registration-form-btn {
@@ -121,6 +146,7 @@ a {
     line-height: 16px;
     letter-spacing: 1.25px;
     color: #fff;
+    margin-top: 25px;
 }
 
 .new-user-container {
