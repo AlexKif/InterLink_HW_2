@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.wrap {
+    background: #F2F2F2;
+    padding-top: 150px;
+    min-height: 100vh;
+}
+
+.registration {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.registration-box {
+    max-width: 487px;
+    width: 100%;
+    padding-top: 55px
+}
+
+.registration-container {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions, .actions a, .actions button {
+    font-size: 14px;
+    line-height: 16px;
+    color: #9EA0A5;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.back-btn i {
+    margin-right: 8px;
+}
+
+.sign-up {
+    margin: 24px 0 4px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212529;
+}
+
+.bottom-line {
+    text-decoration: underline;
+}
+
+.bottom-line-consent {
+    color: #45474c;
+}
+
+.sign-up-text {
+    margin-bottom: 34px;
+    color: #9EA0A5;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.registration-input {
+    width: 100%;
+    padding: 13px 120px 13px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    opacity: .6;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.registration-input:focus {
+    outline: none;
+    border: 2px solid #1665D8;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 24px;
+    color: #9EA0A5;
+    cursor: pointer;
+}
+
+.registration-form-btn {
+    text-transform: uppercase;
+    background: #1665D8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    color: #fff;
+}
+
+.new-user-container {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    color: #fff;
+}
+
+.new-user-container h2 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.new-user {
+    position: relative;
+}
+
+.new-user img {
+    height: 100%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.user-data {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-name {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.user-image {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+.user-function {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 2px;
+}
