@@ -31,7 +31,7 @@ a {
 .registration-box {
     max-width: 487px;
     width: 100%;
-    padding-top: 55px
+    padding: 55px 0 95px;
 }
 
 .registration-container {
@@ -99,6 +99,10 @@ a {
 .registration-input:focus {
     outline: none;
     border: 2px solid #1665D8;
+}
+
+.back-btn:focus {
+    outline: none;
 }
 
 .consent-custom-checkbox {
@@ -196,4 +200,21 @@ a {
     font-size: 12px;
     line-height: 14px;
     margin-top: 2px;
+}
+
+
+@media screen and (max-width: 992px){
+    .registration {
+        max-width: 487px;
+        width: 100%;
+    }
+
+    .new-user {
+        display: none;
+    }
+
+    .registration-box {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
