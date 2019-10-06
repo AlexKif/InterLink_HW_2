@@ -57,6 +57,14 @@ a {
     cursor: pointer;
 }
 
+.back-btn:before {
+    content: url("./../images/Path.png");
+    position: relative;
+    top: 2px;
+    padding-right: 10px;
+}
+
+
 .back-btn i {
     margin-right: 8px;
 }
@@ -218,3 +226,5 @@ a {
         padding-right: 10px;
     }
 }
+
+
